@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #cdcdcd;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 65px;
+    color: rgba(248,225,46,255);
+    text-shadow: -1px -1px 3px  #999;
+    background-color: #85816a;
+    height: 80px;
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 40px; 
+    margin-bottom: 5px;
+    text-shadow: -1px -1px 3px #999;
+    color: #5ba39b;
+}    
+
+nav{
+    height: 0;
+    width: 100%;
+    display: flex;
+    height: 7vh;
+    background-color: black;
+    justify-content: space-around;
+    top: 0;
+}
+
+nav a{
+    display: flex;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 20px;
+}
+
+nav a:hover{
+    transform: scale(1.2);
+    color: #5ba39b;
+}
+
+.active{
+    color: #5ba39b;
+    font-size: 23px;
+}
+
+.logo{
+    background-color: transparent;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    max-width: 1000px;
+}
+
+ol li{ 
+    list-style-position: inside;
+}
+
+ul li{ 
+    list-style-position: inside;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px; 
+    color: rgb(195,76,52);
+    margin-top: 15px;
+}
+
+figure img{
+    border-radius: 20px 20px 20px 20px;
+    width: 400px;
+    height: 320px;
+    box-shadow: 0 0 5px 0.2em #5fa199;
+}
+
+.hockey-image{
+    display: inline-flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.parrafo{
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: -15px; 
+}
+
+.image-about{
+    border-radius: 20px 20px 20px 20px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 0 5px 0.2em #5fa199;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-about1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-contact{
+    border-radius: 20px 20px 20px 20px;
+    width: 800px;
+    height: 400px;
+    box-shadow: 0 0 5px 0.2em #5fa199;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.image-contact1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact-p{
+    font-size: 20px;
+    margin-top: 23px;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.subtitle-rules{
+    margin-bottom: 20px;
+}
+
+h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+td{
+    padding: 7px;
+}
+
+table{
+    margin-top: -5px;    
+}
+
+.title-games{
+    margin-bottom: 30px;
+}
+
+.subtitle-games{
+    margin-bottom: 10px;
+    margin-top: -15px;
+}
+
+.info-games{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 17px;
+} 
+
+.maps{
+    width: 100px; 
+    height: 50px;
+    box-shadow: 0 0 3px 0.1em gray;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.maps:hover{
+    transform: scale(1.4);
+}
+
+h5{
+    font-weight: bold;
+    font-size: 18px;
+} 
+
+form{
+    padding-top: 15px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+input, .option{
+    border-radius: 3px 3px 3px 3px;
+    background-color: white;
+    padding: 0.2rem;
+}   
+
+.form-name, .form-street, .form-bd, .form-city, .form-grade, .form-option, .form-position, .form-uniform, .form-permission, .form-signature, .form-submit{
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem; 
+}
+
+.form-name, .form-bd, .form-city{
+    justify-content: space-between;  
+}
+
+.cont-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;  
+}
+
+.form-uniform, .form-position{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.content-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-form{
+    max-width: 100vw;
+}
+
+.position{
+    display: flex;
+    max-width: 40%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.position label{
+    padding: 1em;
+}
+
+.uniform label{
+    padding: 1em;    
+}
+.uniform{
+    display: flex;
+    flex-direction: column;
+    height: 10em;
+    flex-wrap: wrap;
+}
+
+.submit{
+    border-radius: 3px 3px 3px 3px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 3px 0.1em gray;
+    color: white;
+    background-color: #c34c34;
+    margin-top: 20px;
+    padding: .5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.form-submit{
+    margin-bottom: 30px;   
+}
+
+.submit:hover{
+    transform: scale(1.4);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 6vh;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 0 5px 0.2em #c34c34;
+    position: fixed;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+    background-color: black;
+}
+
+.footer-games, .footer-form{
+    box-shadow: 0 0 5px 0.2em #c34c34;
+    position: relative;
+}
